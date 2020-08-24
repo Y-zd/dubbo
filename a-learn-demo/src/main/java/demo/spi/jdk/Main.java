@@ -1,4 +1,4 @@
-package demo.jdkspi;
+package demo.spi.jdk;
 
 
 import java.util.Iterator;

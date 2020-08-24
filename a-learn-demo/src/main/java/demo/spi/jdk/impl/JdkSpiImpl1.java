@@ -1,6 +1,7 @@
-package demo.jdkspi.impl;
+package demo.spi.jdk.impl;
 
-import demo.jdkspi.JdkSpi;
+
+import demo.spi.jdk.JdkSpi;
 
 /***
  *
@@ -12,6 +13,6 @@ import demo.jdkspi.JdkSpi;
 public class JdkSpiImpl1 implements JdkSpi {
     @Override
     public void run() {
-        System.out.println("JdkSpiImpl1");
+        System.out.println(this.getClass().getName());
     }
 }
